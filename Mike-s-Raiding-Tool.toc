@@ -1,0 +1,57 @@
+## Interface: 90002
+## Title: Mike's Raiding Tool
+## Author: Mike Pattyn
+## Version: 0.1
+
+resources/general/ready-check.lua
+
+resources/castle-nathria/sire-denathrius/tactics/phase-three.lua
+resources/castle-nathria/sire-denathrius/tactics/phase-two.lua
+resources/castle-nathria/sire-denathrius/tactics/intermission.lua
+resources/castle-nathria/sire-denathrius/tactics/phase-one.lua
+resources/castle-nathria/sire-denathrius/menu.lua
+
+resources/castle-nathria/stone-legion-generals/tactics/phase-three.lua
+resources/castle-nathria/stone-legion-generals/tactics/phase-two.lua
+resources/castle-nathria/stone-legion-generals/tactics/phase-one.lua
+resources/castle-nathria/stone-legion-generals/tactics/throughout-the-fight.lua
+resources/castle-nathria/stone-legion-generals/menu.lua
+
+resources/castle-nathria/sludgefist/tactics/quick-version.lua
+resources/castle-nathria/sludgefist/menu.lua
+
+resources/castle-nathria/the-council-of-blood/tactics/after-niklaus-dies.lua
+resources/castle-nathria/the-council-of-blood/tactics/after-freida-dies.lua
+resources/castle-nathria/the-council-of-blood/tactics/throughout-the-fight.lua
+resources/castle-nathria/the-council-of-blood/menu.lua
+
+resources/castle-nathria/lady-inerva-darkvein/tactics/quick-version.lua
+resources/castle-nathria/lady-inerva-darkvein/menu.lua
+
+resources/castle-nathria/sun-kings-salvation/tactics/shade-phase.lua
+resources/castle-nathria/sun-kings-salvation/tactics/add-phase.lua
+resources/castle-nathria/sun-kings-salvation/menu.lua
+
+resources/castle-nathria/artificer-xymox/tactics/phase-three.lua
+resources/castle-nathria/artificer-xymox/tactics/phase-two.lua
+resources/castle-nathria/artificer-xymox/tactics/phase-one.lua
+resources/castle-nathria/artificer-xymox/tactics/throughout-the-fight.lua
+resources/castle-nathria/artificer-xymox/menu.lua
+
+resources/castle-nathria/hungering-destroyer/tactics/quick-version.lua
+resources/castle-nathria/hungering-destroyer/menu.lua
+
+resources/castle-nathria/huntsman-altimor/tactics/hecutis.lua
+resources/castle-nathria/huntsman-altimor/tactics/margore.lua
+resources/castle-nathria/huntsman-altimor/tactics/bargast.lua
+resources/castle-nathria/huntsman-altimor/tactics/throughout-the-fight.lua
+resources/castle-nathria/huntsman-altimor/menu.lua
+
+resources/castle-nathria/shriekwing/tactics/phase-1.lua
+resources/castle-nathria/shriekwing/tactics/phase-2.lua
+resources/castle-nathria/shriekwing/menu.lua
+
+resources/castle-nathria/menu.lua
+
+resources/menu.lua
+main.lua
