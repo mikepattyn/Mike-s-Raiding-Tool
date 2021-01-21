@@ -1,3 +1,2 @@
  # Mike's Raiding tool
- # Version 0.1
- # Currently only for Shadowlands
+ An addon for World of Warcraft. Currently only for Shadowlands patch.
