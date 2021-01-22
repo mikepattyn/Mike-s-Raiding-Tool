@@ -1,13 +1,13 @@
 local menu = MyMenu()
 
 local button = CreateFrame("Button", "MyButton", UIParent, "UIPanelButtonTemplate")
-button:SetSize(120, 30) -- width, height
-button:SetText("Mike's Raid Tool")
+button:SetSize(130, 30) -- width, height
+button:SetText("Mike's Raiding Tool")
 button:SetPoint("TOPLEFT")
 
-local dropdown_ShriekwingFrame = CreateFrame("Frame", "MyMenuFrame", b, "UIDropDownMenuTemplate")
+local menuDropDownFrame = CreateFrame("Frame", "MyMenuFrame", b, "UIDropDownMenuTemplate")
 
 button:SetScript("OnClick", function()
-    dropdown_ShriekwingFrame:SetPoint("LEFT", button, -20, -20)
-    EasyMenu(menu, dropdown_ShriekwingFrame, button, 0, 0, "MENU");
+    menuDropDownFrame:SetPoint("LEFT", button, -20, -20)
+    EasyMenu(menu, menuDropDownFrame, button, 0, 0, "MENU");
 end)
