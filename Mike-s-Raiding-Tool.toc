@@ -1,7 +1,7 @@
 ## Interface: 90002
 ## Title: Mike's Raiding Tool
 ## Author: Mike Pattyn
-## Version: 0.1
+## Version: 1.0
 
 resources/general/ready-check.lua
 
