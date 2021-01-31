@@ -29,10 +29,9 @@ button:RegisterEvent("PLAYER_LOGOUT")
 button:SetScript("OnEvent", function(self, event, arg1)
     if event == "ADDON_LOADED" and arg1 == "Mike-s-Raiding-Tool" then
         if PreferredChatMode == nil then
-            PreferredChatMode = chatMode;
+            PreferredChatMode = _chatMode;
         else
-            _chatMode = PreferredChatMode
-            GlobalChatMode = _chatMode;
+            SetCheckboxChatMode(PreferredChatMode)
         end
     elseif event == "PLAYER_LOGOUT" then
         PreferredChatMode = _chatMode;
