@@ -7,8 +7,7 @@ function CastleNathriaSireDenathriusMenu()
             text = "Icy-veins",
             notCheckable = true,
             func = function()
-                SendChatMessage("https://www.icy-veins.com/wow/shriekwing-strategy-guide-for-castle-nathria",
-                    "RAID_WARNING");
+                SendPreferredChat("https://www.icy-veins.com/wow/sire-denathrius-strategy-guide-for-castle-nathria")
             end
         }, {
             text = "Phase one",

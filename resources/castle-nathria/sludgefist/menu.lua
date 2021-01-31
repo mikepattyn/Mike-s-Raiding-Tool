@@ -7,8 +7,7 @@ function CastleNathriaSludgefistMenu()
             text = "Icy-veins",
             notCheckable = true,
             func = function()
-                SendChatMessage("https://www.icy-veins.com/wow/sludgefist-strategy-guide-for-castle-nathria",
-                    "RAID_WARNING");
+                SendPreferredChat("https://www.icy-veins.com/wow/sludgefist-strategy-guide-for-castle-nathria")
             end
         }, {
             text = "Quick version",

@@ -7,8 +7,7 @@ function CastleNathriaSunKingsSalvationMenu()
             text = "Icy-veins",
             notCheckable = true,
             func = function()
-                SendChatMessage("https://www.icy-veins.com/wow/sun-kings-salvation-strategy-guide-for-castle-nathria",
-                    "RAID_WARNING");
+                SendPreferredChat("https://www.icy-veins.com/wow/sun-kings-salvation-strategy-guide-for-castle-nathria")
             end
         }, {
             text = "Add phase",

@@ -7,11 +7,10 @@ function CastleNathriaHuntsmanAltimorMenu()
             text = "Icy-veins",
             notCheckable = true,
             func = function()
-                SendChatMessage("https://www.icy-veins.com/wow/huntsman-altimor-strategy-guide-for-castle-nathria",
-                    "RAID_WARNING");
+                SendPreferredChat("https://www.icy-veins.com/wow/huntsman-altimor-strategy-guide-for-castle-nathria")
             end
         }, {
-            text = "Through out fight",
+            text = "Throughout the fight",
             notCheckable = true,
             func = function()
                 CastleNathria_HuntsmanAltimor_ThroughoutTheFight();
